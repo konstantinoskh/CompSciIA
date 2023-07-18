@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: e5f3fd;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.compsciia.MainMenuController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="58.0" style="-fx-background-color: e5f3fd;" HBox.hgrow="ALWAYS">
+         <children>
+            <GridPane prefHeight="171.0" prefWidth="218.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="205.6" minWidth="10.0" prefWidth="98.40001068115234" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="107.19998931884766" minWidth="0.0" prefWidth="107.19998931884766" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+            <GridPane alignment="CENTER_LEFT" prefHeight="310.0" prefWidth="165.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="156.8" minWidth="10.0" prefWidth="149.59999389648436" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="136.4" minWidth="10.0" prefWidth="70.40000610351564" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="labelOne" alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" text="Label" textAlignment="RIGHT" underline="true" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Dubai Regular" size="20.0" />
+                     </font></Label>
+                  <Label fx:id="labelTwo" alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" text="Label" textAlignment="RIGHT" underline="true" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Dubai Regular" size="20.0" />
+                     </font></Label>
+                  <Label fx:id="labelThree" alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" text="Label" textAlignment="RIGHT" underline="true" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Dubai Regular" size="20.0" />
+                     </font></Label>
+                  <Label fx:id="labelFour" alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" text="Label" textAlignment="RIGHT" underline="true" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Dubai Regular" size="20.0" />
+                     </font></Label>
+                  <Label fx:id="labelFive" alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" text="Label" textAlignment="RIGHT" underline="true" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Dubai Regular" size="20.0" />
+                     </font></Label>
+                  <Label fx:id="labelSix" alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" text="Label" textAlignment="RIGHT" underline="true" GridPane.halignment="RIGHT" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font name="Dubai Regular" size="20.0" />
+                     </font></Label>
+                  <ImageView fitHeight="48.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" translateX="5.0" GridPane.halignment="LEFT" GridPane.hgrow="NEVER" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                     <image>
+                        <Image url="@../../../Images/Folder-icon.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="51.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" translateX="5.0" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../../../Images/Folder-icon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true" translateX="5.0" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@../../../Images/Folder-icon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="49.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" translateX="5.0" GridPane.rowIndex="3">
+                     <image>
+                        <Image url="@../../../Images/Folder-icon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true" translateX="5.0" GridPane.rowIndex="4">
+                     <image>
+                        <Image url="@../../../Images/Folder-icon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" translateX="5.0" GridPane.rowIndex="5">
+                     <image>
+                        <Image url="@../../../Images/Folder-icon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </ImageView>
+                  <Line endX="99.77873229980469" endY="-1.060907006263733" startX="100.89290618896484" startY="-402.5538635253906" stroke="#251981" translateY="25.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+               </children>
+            </GridPane>
+            <GridPane alignment="BOTTOM_LEFT" prefHeight="171.0" prefWidth="218.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="137.60000000000002" minWidth="4.000007534027105" prefWidth="73.60001220703126" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="133.59999246597292" minWidth="0.0" prefWidth="63.99998779296877" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children></VBox>
+      <VBox alignment="CENTER" prefHeight="600.0" prefWidth="282.0" HBox.hgrow="ALWAYS">
+         <children>
+            <GridPane alignment="TOP_CENTER" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="110.0" prefWidth="465.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.59998779296875" minWidth="10.0" prefWidth="55.20001220703125" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="343.1999877929687" minWidth="10.0" prefWidth="343.1999877929687" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="123.199951171875" minWidth="10.0" prefWidth="67.00002441406252" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="194.79999389648438" minHeight="10.0" prefHeight="127.00000610351563" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="194.79999389648438" minHeight="10.0" prefHeight="98.19999999999999" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ListView fx:id="searchResults" onMouseClicked="#onSearchItemClick" prefHeight="111.0" prefWidth="334.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="2147483647">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ListView>
+                  <Label fx:id="welcomeMessage" text="WELCOME, NAME" translateX="30.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="21.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="searchBar" prefHeight="38.0" prefWidth="261.0" promptText="Enter filename" style="-fx-background-color: white; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.valignment="BOTTOM">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <Label fx:id="noFileFoundLabel" text="No such file found" textFill="RED" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+                  <Button fx:id="searchButton" mnemonicParsing="false" onAction="#searchConfirmButton" prefHeight="38.0" prefWidth="54.0" style="-fx-background-color: #D3D3D3; -fx-border-color: black;" text="Search" translateX="2.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label fx:id="noUserInputLabel" text="Please enter something" textFill="RED" visible="false" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+               </children>
+            </GridPane>
+            <GridPane alignment="CENTER" focusTraversable="true" prefHeight="0.0" prefWidth="440.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="440.0" minWidth="10.0" prefWidth="48.199975585937494" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="440.0" minWidth="10.0" prefWidth="334.8000122070313" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="214.39996337890625" minWidth="0.0" prefWidth="59.59998779296876" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+                     <children>
+                        <ListView fx:id="fileListView" layoutX="-74.0" layoutY="-133.0" prefHeight="354.0" prefWidth="460.0" style="-fx-cursor: hand;" visible="false" AnchorPane.bottomAnchor="-108.0" AnchorPane.leftAnchor="-74.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="-133.0">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <contextMenu>
+                              <ContextMenu fx:id="fileListViewContextMenu" autoFix="false" style="-fx-cursor: hand;">
+                                <items>
+                                  <MenuItem mnemonicParsing="false" onAction="#renameContextMenuItem" text="Rename" />
+                                    <MenuItem mnemonicParsing="false" onAction="#newFolder" text="New Folder" />
+                                    <MenuItem mnemonicParsing="false" text="Upload File" />
+                                    <MenuItem mnemonicParsing="false" onAction="#deleteFile" text="Delete" />
+                                </items>
+                              </ContextMenu>
+                           </contextMenu></ListView>
+                        <Button fx:id="fileListViewBackButton" layoutX="338.0" layoutY="-131.0" mnemonicParsing="false" onAction="#backButton" prefHeight="18.0" prefWidth="23.0" style="-fx-background-color: white;" text="&lt;-" visible="false">
+                           <font>
+                              <Font name="Century Gothic" size="10.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="closeButton" layoutX="362.0" layoutY="-131.0" mnemonicParsing="false" onAction="#closeButton" prefHeight="18.0" prefWidth="23.0" style="-fx-background-color: white;" text="x" visible="false">
+                           <font>
+                              <Font name="Century Gothic" size="10.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+            <GridPane alignment="BOTTOM_CENTER" prefHeight="0.0" prefWidth="440.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children>
+      </VBox>
+      <VBox prefHeight="600.0" prefWidth="85.0" style="-fx-background-color: e5f3fd;" HBox.hgrow="ALWAYS">
+         <children>
+            <GridPane alignment="BOTTOM_RIGHT" prefHeight="502.0" prefWidth="243.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="239.2000244140625" minWidth="10.0" prefWidth="224.0000732421875" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="117.20001220703125" minWidth="3.9999755859375057" prefWidth="19.199926757812506" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="347.6" minHeight="10.0" prefHeight="125.60001220703126" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="347.6" minHeight="6.799975585937489" prefHeight="23.199987792968756" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="274.4" minHeight="0.0" prefHeight="188.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="112.79998779296875" minHeight="0.0" prefHeight="30.80000000000001" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="245.60000000000002" minHeight="10.0" prefHeight="212.59999389648442" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="76.800048828125" minHeight="0.0" prefHeight="23.20001220703125" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextArea fx:id="textBox" prefHeight="232.0" prefWidth="213.0" wrapText="true" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+                  <AnchorPane prefHeight="54.0" prefWidth="225.0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <children>
+                        <Text layoutX="90.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes" underline="true" AnchorPane.bottomAnchor="3.6000000000000014" AnchorPane.rightAnchor="90.45625000000001">
+                           <font>
+                              <Font name="Century Gothic" size="16.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="1.4210854715202004E-14" layoutY="-0.8000000000000007" mnemonicParsing="false" onAction="#saveText" style="-fx-background-color: none;" text="Save" textFill="#1f2fbf" underline="true" AnchorPane.bottomAnchor="-1.5999999999999979" AnchorPane.rightAnchor="180.0">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="notesSavedSuccessfullyLabel" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                     <children>
+                        <ListView fx:id="todolistListView" prefHeight="188.0" prefWidth="225.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                     <children>
+                        <Text layoutX="13.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To-Do List" underline="true" AnchorPane.bottomAnchor="3.1999999999999993" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="140.159375">
+                           <font>
+                              <Font name="Century Gothic" size="16.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="addButton" layoutX="130.0" mnemonicParsing="false" onAction="#addButton" style="-fx-background-color: none;" text="Add" textFill="#1f2fbf" underline="true" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="55.59999999999999">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="toDoListClearButton" layoutX="162.0" mnemonicParsing="false" onAction="#toDoListClear" style="-fx-background-color: none;" text="Clear" textFill="#1f2fbf" underline="true" AnchorPane.bottomAnchor="-3.552713678800501E-15" AnchorPane.rightAnchor="7.600000000000023">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </children></VBox>
+   </children>
+</HBox>
